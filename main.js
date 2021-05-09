@@ -1,17 +1,5 @@
 let tableArray = [];
 
-// const getInfo = () => {
-//   let rows = Number(document.getElementById("row").value);
-//   let columns = Number(document.getElementById("column").value);
-//   if (rows !== rows) {
-//     alert("Enter correct value");
-//   } else if (columns !== columns) {
-//     alert("Enter correct value");
-//   } else {
-//     createTable(rows, columns);
-//   }
-// };
-
 const renderTable = () => {
   let table = document.getElementById("table");
   let trArray = "";
@@ -51,7 +39,17 @@ const createTable = (rowsCount, columnsCount) => {
   renderTable();
 };
 createTable(10, 10);
-
+const getInfo = () => {
+  let rows = Number(document.getElementById("row").value);
+  let columns = Number(document.getElementById("column").value);
+  if (rows !== rows) {
+    alert("Enter correct value");
+  } else if (columns !== columns) {
+    alert("Enter correct value");
+  } else {
+    createTable(rows, columns);
+  }
+};
 const addValue = () => {
   let value = prompt("Введите букву или вопрос");
   console.log(event.target.id);
