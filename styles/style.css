@@ -1,0 +1,18 @@
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+}
+
+.quetion {
+  background-color: #f5f575;
+}
+
+.word {
+  background-color: #c3c3c3;
+}
+/*# sourceMappingURL=style.css.map */
