@@ -13,6 +13,10 @@ table {
 }
 
 .word {
-  background-color: #c3c3c3;
+  background-color: white;
+}
+
+.nothing {
+  background-color: #858585;
 }
 /*# sourceMappingURL=style.css.map */
